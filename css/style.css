@@ -1,0 +1,55 @@
+:root {
+  --Purple: #a729f5;
+  --Dark-Navy: #313e51;
+  --Navy: #3b4d66;
+  --Grey-Navy: #626c7f;
+  --Light-Bluish: #abc1e1;
+  --Light-Grey: #f4f6fa;
+  --Green: #26d782;
+  --Red: #ee5454;
+}
+.img-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 417px;
+  height: 417px;
+}
+.img-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 417px;
+  height: 417px;
+}
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 8.3rem;
+}
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8.5rem;
+}
+.content{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+.right{
+  max-width: 505px;
+  width: 100%;
+  z-index: 10;
+}
+.left{
+  max-width: 564px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  z-index: 10;
+}
